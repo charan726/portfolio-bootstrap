@@ -129,6 +129,12 @@ img{
 }
 /* content */
 
+.social-icons a {
+    background-color: var(--color-base2);
+    border-radius: 100px;
+    font-size: 24px;
+}
+
 
 .btn{
     padding: 12px 28px;
@@ -159,4 +165,22 @@ img{
 }
 .link-custom:hover::after{
     width: 100%;
+}
+
+#contact .form-control{
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+.col-12{
+    width: 100%;
+}
+#contact .form-control:focus{
+    border-color: var(--color-brand);
+}
+#contact .form-control::placeholder{
+    color: var(--color-body);
+}
+#contact input.form-control{
+    height: 44px;
 }
