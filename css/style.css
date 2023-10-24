@@ -184,3 +184,10 @@ img{
 #contact input.form-control{
     height: 44px;
 }
+.para p{
+    margin-bottom:1px;
+    margin-top: 1px;
+}
+.address , .number{
+    text-align: left;
+}
