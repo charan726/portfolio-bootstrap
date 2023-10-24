@@ -188,6 +188,9 @@ img{
     margin-bottom:1px;
     margin-top: 1px;
 }
-.address , .number{
+.address{
     text-align: left;
+}
+.number{
+    text-align: right;
 }
